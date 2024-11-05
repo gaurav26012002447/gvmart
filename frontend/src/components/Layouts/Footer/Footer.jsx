@@ -34,19 +34,19 @@ const footerLinks = [
     links: [
       {
         name: "Payments",
-        redirect: "https://www.flipkart.com/pages/payments",
+        redirect: "https://www.gvmart.com/pages/payments",
       },
       {
         name: "Shipping",
-        redirect: "https://www.flipkart.com/pages/shipping",
+        redirect: "https://www.gvmart.com/pages/shipping",
       },
       {
         name: "Cancellation & Returns",
-        redirect: "https://www.flipkart.com/helpcentre?catalog=55c9c6edb000002e002c1701&view=CATALOG",
+        redirect: "https://www.gvmart.com/helpcentre?catalog=55c9c6edb000002e002c1701&view=CATALOG",
       },
       {
         name: "FAQ",
-        redirect: "https://www.flipkart.com/helpcentre?catalog=55c9c8e2b0000023002c1702&view=CATALOG",
+        redirect: "https://www.gvmart.com/helpcentre?catalog=55c9c8e2b0000023002c1702&view=CATALOG",
       }
     ]
   },
@@ -55,27 +55,27 @@ const footerLinks = [
     links: [
       {
         name: "Return Policy",
-        redirect: "https://www.flipkart.com/pages/returnpolicy",
+        redirect: "https://www.gvmart.com/pages/returnpolicy",
       },
       {
         name: "Terms Of Use",
-        redirect: "https://www.flipkart.com/pages/terms",
+        redirect: "https://www.gvmart.com/pages/terms",
       },
       {
         name: "Security",
-        redirect: "https://www.flipkart.com/pages/paymentsecurity",
+        redirect: "https://www.gvmart.com/pages/paymentsecurity",
       },
       {
         name: "Privacy",
-        redirect: "https://www.flipkart.com/pages/privacypolicy",
+        redirect: "https://www.gvmart.com/pages/privacypolicy",
       },
       {
         name: "Sitemap",
-        redirect: "https://www.flipkart.com/sitemap",
+        redirect: "https://www.gvmart.com/sitemap",
       },
       {
         name: "EPR Compliance",
-        redirect: "https://www.flipkart.com/pages/ewaste-compliance-tnc",
+        redirect: "https://www.gvmart.com/pages/ewaste-compliance-tnc",
       },
     ]
   },
@@ -84,15 +84,15 @@ const footerLinks = [
     links: [
       {
         name: "Facebook",
-        redirect: "https://www.facebook.com/flipkart",
+        redirect: "https://www.facebook.com/gvmart",
       },
       {
         name: "Twitter",
-        redirect: "https://twitter.com/flipkart",
+        redirect: "https://twitter.com/gvmart",
       },
       {
         name: "YouTube",
-        redirect: "https://www.youtube.com/flipkart",
+        redirect: "https://www.youtube.com/gvmart",
       }
     ]
   }
@@ -157,16 +157,16 @@ const Footer = () => {
           {/* <!-- footer ends --> */}
 
           <div className="px-16 py-6 w-full bg-primary-darkBlue hidden sm:flex justify-between items-center text-sm text-white">
-            <a href="https://seller.flipkart.com/sell-online" target="_blank" rel="noreferrer" className="flex items-center gap-2">
+            <a href="https://seller.gvmart.com/sell-online" target="_blank" rel="noreferrer" className="flex items-center gap-2">
               <span className="text-yellow-400"><WorkIcon sx={{ fontSize: "20px" }} /></span> Sell On GV-Mart
             </a>
-            <a href="https://brands.flipkart.com" target="_blank" rel="noreferrer" className="flex items-center gap-2">
+            <a href="https://brands.gvmart.com" target="_blank" rel="noreferrer" className="flex items-center gap-2">
               <span className="text-yellow-400"><StarsIcon sx={{ fontSize: "20px" }} /></span> Advertise
             </a>
-            <a href="https://www.flipkart.com/the-gift-card-store" rel="noreferrer" target="_blank" className="flex items-center gap-2">
+            <a href="https://www.gvmart.com/the-gift-card-store" rel="noreferrer" target="_blank" className="flex items-center gap-2">
               <span className="text-yellow-400"><CardGiftcardIcon sx={{ fontSize: "20px" }} /></span> Gift Cards
             </a>
-            <a href="https://www.flipkart.com/helpcentre" target="_blank" rel="noreferrer" className="flex items-center gap-2">
+            <a href="https://www.gvmart.com/helpcentre" target="_blank" rel="noreferrer" className="flex items-center gap-2">
               <span className="text-yellow-400"><HelpIcon sx={{ fontSize: "20px" }} /></span> Help Center
             </a>
 
