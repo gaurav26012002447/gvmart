@@ -30,6 +30,7 @@ app.use('/api/v1', payment);
 
 // deployment
 __dirname = path.resolve();
+console.log(__dirname);
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static('frontend/build'));
 
